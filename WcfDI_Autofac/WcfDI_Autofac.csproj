@@ -79,7 +79,6 @@
     <Compile Include="TestService.svc.cs">
       <DependentUpon>TestService.svc</DependentUpon>
     </Compile>
-    <Compile Include="ITestService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

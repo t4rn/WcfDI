@@ -1,4 +1,5 @@
 ﻿using WcfDI.Infrastructure;
+using WcfDI.Infrastructure.WcfContracts;
 
 namespace WcfDI_Ninject
 {

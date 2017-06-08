@@ -1,6 +1,6 @@
 ﻿using System.ServiceModel;
 
-namespace WcfDI_Autofac
+namespace WcfDI.Infrastructure.WcfContracts
 {
     [ServiceContract]
     public interface ITestService

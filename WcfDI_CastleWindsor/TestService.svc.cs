@@ -1,7 +1,7 @@
 ﻿using WcfDI.Infrastructure;
 using WcfDI.Infrastructure.WcfContracts;
 
-namespace WcfDI_Autofac
+namespace WcfDI_CastleWindsor
 {
     public class TestService : ITestService
     {
@@ -14,7 +14,7 @@ namespace WcfDI_Autofac
 
         public string GetData()
         {
-            return _repo.GetValue("Autofac");
+            return _repo.GetValue("Castle Windsor");
         }
     }
 }

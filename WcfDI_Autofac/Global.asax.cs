@@ -12,7 +12,9 @@ namespace WcfDI_Autofac
             ContainerBuilder builder = new ContainerBuilder();
 
             builder.RegisterType<TestService>();
-            builder.RegisterType<LocalRepository>().As<IRepository>();
+            builder.RegisterType<LocalRepository>().As<IRepository>()
+                .WithParameter("connectionString", Properties.Settings.Default.ConnectionString);
+            builder.RegisterType<ValueService>().As<IValueService>();
 
             AutofacHostFactory.Container = builder.Build();
         }

@@ -6,6 +6,7 @@ namespace WcfDI_Ninject.App_Start
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
     using Ninject;
     using Ninject.Web.Common;
+    using Properties;
     using System;
     using System.Web;
     using WcfDI.Infrastructure;
@@ -60,7 +61,8 @@ namespace WcfDI_Ninject.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            kernel.Bind<IRepository>().To<LocalRepository>();
+            kernel.Bind<IRepository>().To<LocalRepository>().WithConstructorArgument("connectionString", Settings.Default.ConnectionString);
+            kernel.Bind<IValueService>().To<ValueService>();
         }
     }
 }

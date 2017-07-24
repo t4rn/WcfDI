@@ -1,6 +1,6 @@
 ﻿namespace WcfDI.Infrastructure
 {
-    public interface IRepository
+    public interface IValueService
     {
         string GetValue(string input);
     }

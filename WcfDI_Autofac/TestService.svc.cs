@@ -5,16 +5,16 @@ namespace WcfDI_Autofac
 {
     public class TestService : ITestService
     {
-        private readonly IRepository _repo;
+        private readonly IValueService _valueSrv;
 
-        public TestService(IRepository repo)
+        public TestService(IValueService valueSrv)
         {
-            _repo = repo;
+            _valueSrv = valueSrv;
         }
 
         public string GetData()
         {
-            return _repo.GetValue("Autofac");
+            return _valueSrv.GetValue("Autofac");
         }
     }
 }

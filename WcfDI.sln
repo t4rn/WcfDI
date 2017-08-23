@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDI_Autofac", "WcfDI_Auto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDI_CastleWindsor", "WcfDI_CastleWindsor\WcfDI_CastleWindsor.csproj", "{AA7E0ABF-3E2C-42C3-9AD2-B8E95C6BD3FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfDI_Unity", "WcfDI_Unity\WcfDI_Unity.csproj", "{A0BEB906-F9B6-41DF-A95B-94262A8068A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AA7E0ABF-3E2C-42C3-9AD2-B8E95C6BD3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7E0ABF-3E2C-42C3-9AD2-B8E95C6BD3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7E0ABF-3E2C-42C3-9AD2-B8E95C6BD3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BEB906-F9B6-41DF-A95B-94262A8068A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BEB906-F9B6-41DF-A95B-94262A8068A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BEB906-F9B6-41DF-A95B-94262A8068A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BEB906-F9B6-41DF-A95B-94262A8068A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

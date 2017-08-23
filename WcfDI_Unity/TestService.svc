@@ -1,0 +1,5 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="WcfDI_Unity.TestService" 
+    Factory="WcfDI_Unity.WcfServiceFactory" %>
